@@ -108,7 +108,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.bt.enable.splita2dp=true \
     persist.vendor.qcom.bluetooth.enable.splita2dp=true \
     vendor.bluetooth.soc=cherokee \
-    vendor.qcom.bluetooth.soc=cherokee
+    vendor.qcom.bluetooth.soc=cherokee \
+    ro.bluetooth.library_name=libbluetooth_qti.so
 
 # CNE and DPM
 PRODUCT_PROPERTY_OVERRIDES += \
