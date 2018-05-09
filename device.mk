@@ -445,7 +445,8 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    vndk_package
+    vndk_package \
+    libstdc++.vendor
 
 # FIXME: master: compat for libprotobuf See
 # https://android-review.googlesource.com/c/platform/prebuilts/vndk/v28/+/1109518
