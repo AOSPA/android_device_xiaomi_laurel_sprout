@@ -40,6 +40,24 @@
 #define FOD_SENSOR_Y 1356
 #define FOD_SENSOR_SIZE 134
 
+#define BRIGHTNESS_PATH "/sys/class/backlight/panel0-backlight/brightness"
+
+namespace {
+
+template <typename T>
+static T get(const std::string& path, const T& def) {
+    std::ifstream file(path);
+    T result;
+    file >> result;
+    return file.fail() ? def : result;
+}
+
+template <typename T>
+static void set(const std::string& path, const T& value) {
+    std::ofstream file(path);
+    file << value;
+}
+
 namespace vendor {
 namespace pa {
 namespace biometrics {
