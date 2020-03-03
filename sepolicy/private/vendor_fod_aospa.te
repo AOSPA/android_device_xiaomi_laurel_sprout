@@ -1,0 +1,2 @@
+# Allow binder communication with system_server.
+binder_call(vendor_fod_aospa, system_server)
