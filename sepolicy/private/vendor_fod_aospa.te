@@ -1,0 +1,9 @@
+type sysfs_fod, sysfs_type, fs_type;
+
+allow vendor_fod_aospa sysfs_fod:file rw_file_perms;
+
+allow vendor_fod_aospa hal_fingerprint_hwservice_xiaomi:hwservice_manager find;
+
+# Allow binder communication with system_server and fingerprint hal.
+binder_call(vendor_fod_aospa, hal_fingerprint_default)
+binder_call(vendor_fod_aospa, system_server)
