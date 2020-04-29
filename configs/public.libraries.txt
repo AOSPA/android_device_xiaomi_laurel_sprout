@@ -15,3 +15,5 @@ libmialgoengine.so
 libVDDualCameraClearShot.so
 libxml2_vendor.so
 lib_lowlight.so
+libprotobuf-cpp-full.so
+libprotobuf-cpp-lite.so
