@@ -167,6 +167,10 @@ PRODUCT_PACKAGES += \
     antradio_app  \
     libantradio
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # Atrace
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
