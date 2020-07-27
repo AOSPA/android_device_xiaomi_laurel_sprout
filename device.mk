@@ -44,16 +44,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service \
-    bootctrl.trinket
+    android.hardware.boot@1.0-impl.recovery \
+    bootctrl.trinket \
+    bootctrl.trinket.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.trinket \
-    libcutils \
-    libgptutils \
-    libz
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1560
