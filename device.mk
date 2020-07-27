@@ -15,6 +15,12 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
+# Include vendor/qcom/common modules
+TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    bt \
+    perf
+
 # A/B
 AB_OTA_UPDATER := true
 
