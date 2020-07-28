@@ -3659,6 +3659,9 @@ vendor/etc/thermal-engine-nolimits.conf
 vendor/etc/thermal-engine-normal.conf
 vendor/etc/thermal-engine.conf
 vendor/lib64/libthermalfeature.so
+vendor/lib/hw/thermal.trinket.so
+vendor/lib/libthermalfeature.so
+vendor/lib64/hw/thermal.trinket.so
 
 # Time services
 bin/move_time_data.sh
