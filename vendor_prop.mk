@@ -199,4 +199,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000 \
     debug.sf.disable_backpressure=1 \
     debug.sf.enable_gl_backpressure=1 \
-    debug.sf.enable_hwc_vds=1
+    debug.sf.enable_hwc_vds=0
