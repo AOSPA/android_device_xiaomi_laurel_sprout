@@ -22,12 +22,14 @@
 #include <fstream>
 #include <cmath>
 
-#define FINGERPRINT_ERROR_VENDOR 8
-
 #define COMMAND_NIT 10
 #define PARAM_NIT_630_FOD 1
 #define PARAM_NIT_300_FOD 4
 #define PARAM_NIT_NONE 0
+
+#define FOD_HBM_PATH "/sys/devices/platform/soc/soc:qcom,dsi-display/fod_hbm"
+#define FOD_HBM_ON 1
+#define FOD_HBM_OFF 0
 
 #define FOD_STATUS_PATH "/sys/class/touch/tp_dev/fod_status"
 #define FOD_STATUS_ON 1
@@ -55,6 +57,8 @@ static void set(const std::string& path, const T& value) {
     file << value;
 }
 
+} // anonymous namespace
+
 namespace vendor {
 namespace pa {
 namespace biometrics {
@@ -62,12 +66,6 @@ namespace fingerprint {
 namespace inscreen {
 namespace V1_0 {
 namespace implementation {
-
-template <typename T>
-static void set(const std::string& path, const T& value) {
-    std::ofstream file(path);
-    file << value;
-}
 
 FingerprintInscreen::FingerprintInscreen() {
     xiaomiFingerprintService = IXiaomiFingerprint::getService();
@@ -128,7 +126,7 @@ Return<bool> FingerprintInscreen::handleAcquired(int32_t acquiredInfo, int32_t v
 
 Return<bool> FingerprintInscreen::handleError(int32_t error, int32_t vendorCode) {
     LOG(ERROR) << "error: " << error << ", vendorCode: " << vendorCode << "\n";
-    return error == FINGERPRINT_ERROR_VENDOR && vendorCode == 6;
+    return false;
 }
 
 Return<void> FingerprintInscreen::setLongPressEnabled(bool) {
