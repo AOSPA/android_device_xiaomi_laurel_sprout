@@ -26,8 +26,8 @@
         <!-- Type="1", main launch boost of 2sec -->
         <Config
             Id="0x00001081" Type="1" Enable="true" Timeout="2000" Target="trinket"
-            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 0xFFF,
-                       0x40800100, 0xFFF" />
+            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000, 1401,
+                       0x40800100, 1305" />
 
     <!--app lauch boost (disabling packing)-->
         <!-- POWER COLLAPSE resource opcode, value-->
@@ -114,7 +114,7 @@
         <!-- Type="1", Vertical Scroll boost -->
         <Config
             Id="0x00001080" Type="1" Enable="true" Target="trinket"
-            Resources="0x41800000, 0x26, 0x40800000, 1500, 0x40800100, 1500, 0x40C00000, 2" />
+            Resources="0x41800000, 0x26, 0x40800000, 1056, 0x40800100, 1017, 0x40C00000, 2" />
 
     <!--Horizontal Scroll boost-->
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
@@ -125,7 +125,7 @@
         <!-- Type="2", Horizontal Scroll boost -->
         <Config
             Id="0x00001080" Type="2" Enable="true" Target="trinket"
-            Resources="0x41800000, 0x26, 0x40800000, 1500, 0x40800100, 1500, 0x40C00000, 2" />
+            Resources="0x41800000, 0x26, 0x40800000, 1056, 0x40800100, 1017, 0x40C00000, 2" />
 
     <!--Pre-Fling boost-->
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
@@ -137,19 +137,6 @@
         <Config
             Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="trinket"
             Resources="0x41800000, 0x26, 0x40800000, 1056, 0x40800100, 1017, 0x40C00000, 2" />
-
-
-    <!--QQ boost-->
-        <!-- CPUBW_MIN_FREQ resource opcode, value-->
-        <!-- CPUBOOST_MIN_FREQ BIG CORE resource opcode, value -->
-        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
-        <!-- SCHEDBOOST resource opcode, value-->
-
-        <!-- Type="5", Pre-Fling boost -->
-        <Config
-            Id="0x00001080" Type="5" Enable="true" Target="trinket"
-             Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000,0xFFF,
-                       0x40800100,0xFFF" />
 
     <!--MTP boost-->
         <!-- SCHEDBOOST resource opcode, value-->
@@ -172,12 +159,13 @@
         <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
+        <!-- SCHED_SYNC_HINT_ENABLE resource opcode, value-->
         <!-- Type="", Package Install boost -->
 
         <Config
             Id="0x00001088" Enable="true" Target="trinket"
-            Resources="0x40C00000, 0x1, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000,0xFFF,
-                       0x40800100,0xFFF" />
+            Resources="0x40C00000, 0x2, 0x40804000, 0xFFF, 0x40804100, 0xFFF, 0x40800000,0xFFF,
+                       0x40800100,0xFFF, 0x40CA0000, 0" />
 
     <!--Rotation latency boost-->
         <!-- SCHEDBOOST resource opcode, value-->
