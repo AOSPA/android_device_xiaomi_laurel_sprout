@@ -1,0 +1,97 @@
+# ART
+dalvik.vm.boot-dex2oat-threads=8
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
+dalvik.vm.image-dex2oat-filter=speed
+
+# Audio
+persist.audio.fluence.speaker=true
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.voicecomm=true
+persist.audio.fluence.voicerec=false
+ro.config.media_vol_steps=25
+ro.config.vc_call_vol_steps=7
+ro.qc.sdk.audio.fluencetype=fluence
+ro.qc.sdk.audio.ssr=false
+af.fast_track_multiplier=2
+audio.deep_buffer.media=true
+audio.offload.min.duration.secs=30
+audio.offload.video=true
+audio.sys.noisy.broadcast.delay=600
+audio.sys.offload.pstimeout.secs=3
+ro.af.client_heap_size_kbyte=7168
+
+# Bluetooth
+persist.bt.enableAptXHD=true
+persist.service.btui.use_aptx=1
+persist.vendor.bt.a2dp.aac_whitelist=false
+ro.bluetooth.library_name=libbluetooth_qti.so
+
+# Dalvik Heap
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=4m
+dalvik.vm.heapmaxfree=8m
+
+# Display
+persist.demo.hdmirotationlock=false
+debug.sf.hw=0
+debug.egl.hw=0
+debug.enable.sglscale=1
+debug.sf.enable_hwc_vds=1
+debug.gralloc.enable_fb_ubwc=1
+debug.sf.latch_unsignaled=1
+debug.sf.recomputecrop=0
+dev.pm.dyn_samplingrate=1
+
+# DRM
+drm.service.enabled=true
+
+# FRP
+ro.frp.pst=/dev/block/bootdevice/by-name/frp
+
+# Keystore
+ro.hardware.keystore_desede=true
+
+# Media
+media.aac_51_output_enabled=true
+media.stagefright.enable-aac=true
+media.stagefright.enable-fma2dp=true
+media.stagefright.enable-http=true
+media.stagefright.enable-player=true
+media.stagefright.enable-qcp=true
+media.stagefright.enable-scan=true
+persist.mm.enable.prefetch=true
+
+# Netmgr
+persist.data.df.dev_name=rmnet_usb0
+
+# Netflix
+ro.netflix.bsp_rev=Q6125-17995-1
+
+# OEM Unlocking
+ro.oem_unlock_supported=1
+
+# Radio
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+persist.radio.calls.on.ims=1
+persist.radio.multisim.config=dsds
+ril.subscription.types=NV,RUIM
+ro.telephony.default_network=22,22
+telephony.lteOnCdmaDevice=1
+
+# SurfaceFlinger
+ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+ro.surface_flinger.max_virtual_display_dimension=4096
+ro.surface_flinger.protected_contents=true
+
+# Wireless display
+debug.sf.latch_unsignaled=0
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0

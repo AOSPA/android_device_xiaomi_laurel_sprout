@@ -7,9 +7,6 @@
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/xiaomi/laurel_sprout/laurel_sprout-vendor.mk)
 
-# Vendor properties
--include $(LOCAL_PATH)/vendor_prop.mk
-
 PRODUCT_CHARACTERISTICS := nosdcard
 
 # Include vendor/qcom/common modules
