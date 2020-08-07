@@ -3031,6 +3031,10 @@ vendor/firmware/sign_xiaomi/a610_zap.elf
 vendor/firmware/sign_xiaomi/a610_zap.mdt
 vendor/firmware/wigig/wigig.ini
 
+# Gralloc - source built with raw10 fix
+vendor/lib/libgrallocutils.so|42b16c8bee0ad715c2509b526f4cb67c325cec31
+vendor/lib64/libgrallocutils.so|175cce1c7b7cb20c745f39b84201936d5629937b
+
 # Graphics
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
