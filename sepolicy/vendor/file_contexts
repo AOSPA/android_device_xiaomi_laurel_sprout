@@ -12,9 +12,10 @@
 /sys/devices/platform/soc/soc:qcom,dsi-display/backlight_level         u:object_r:sysfs_fod:s0
 /sys/devices/platform/soc/soc:qcom,dsi-display/fod_hbm	               u:object_r:sysfs_fod:s0
 /sys/class/touch/tp_dev/fod_status				u:object_r:sysfs_fod:s0
+/sys/devices/platform/soc/4a88000.i2c/i2c-1/1-0038/touch/tp_dev/fod_status          u:object_r:sysfs_fod:s0
 
 # HALs
-/vendor/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_laurel_sprout                                   u:object_r:hal_light_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.laurel_sprout                                   u:object_r:hal_light_default_exec:s0
 /vendor/bin/hw/vendor\.pa\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_laurel_sprout         u:object_r:hal_pa_fod_default_exec:s0
 
 # IR
