@@ -83,10 +83,12 @@ Return<int32_t> FingerprintInscreen::getSize() {
 }
 
 Return<void> FingerprintInscreen::onStartEnroll() {
+    set(FOD_HBM_PATH, FOD_HBM_ON);
     return Void();
 }
 
 Return<void> FingerprintInscreen::onFinishEnroll() {
+    set(FOD_HBM_PATH, FOD_HBM_OFF);
     return Void();
 }
 
@@ -103,11 +105,11 @@ Return<void> FingerprintInscreen::onRelease() {
 }
 
 Return<void> FingerprintInscreen::onShowFODView() {
-    set(FOD_STATUS_PATH, FOD_STATUS_ON);
     return Void();
 }
 
 Return<void> FingerprintInscreen::onHideFODView() {
+    set(FOD_HBM_PATH, FOD_HBM_OFF);
     set(FOD_STATUS_PATH, FOD_STATUS_OFF);
     return Void();
 }
