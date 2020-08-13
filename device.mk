@@ -342,6 +342,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
     $(LOCAL_PATH)/configs/perf/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
+# Paranoid Doze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
 # IRSC
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
