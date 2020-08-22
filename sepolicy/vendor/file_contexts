@@ -9,10 +9,9 @@
 /data/vendor/goodix(/.*)?                                                                              u:object_r:fingerprint_data_file:s0
 
 # FOD
-/sys/devices/platform/soc/soc:qcom,dsi-display/backlight_level         u:object_r:sysfs_fod:s0
-/sys/devices/platform/soc/soc:qcom,dsi-display/fod_hbm	               u:object_r:sysfs_fod:s0
 /sys/class/touch/tp_dev/fod_status				u:object_r:sysfs_fod:s0
 /sys/devices/platform/soc/4a88000.i2c/i2c-1/1-0038/touch/tp_dev/fod_status          u:object_r:sysfs_fod:s0
+/sys/devices/platform/soc/5e00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/disp_param    u:object_r:sysfs_fod:s0
 
 # HALs
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.laurel_sprout                                   u:object_r:hal_light_default_exec:s0
