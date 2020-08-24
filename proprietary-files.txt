@@ -3075,10 +3075,6 @@ vendor/lib/libpvr.so
 vendor/lib/librs_adreno.so
 vendor/lib/librs_adreno_sha1.so
 
-# Graphics (Hardware)
-vendor/lib/libsdmcore.so
-vendor/lib64/libsdmcore.so
-
 # Graphics (SDM)
 vendor/lib64/libdisp-aba.so
 vendor/lib64/libdisplayqos.so
