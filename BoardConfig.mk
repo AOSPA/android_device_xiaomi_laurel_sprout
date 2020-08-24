@@ -124,6 +124,7 @@ TARGET_USES_ION := true
 
 # FOD
 TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.xiaomi_laurel_sprout
+TARGET_USES_FOD_ZPOS := true
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/framework_manifest.xml
