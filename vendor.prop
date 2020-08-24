@@ -140,6 +140,7 @@ vendor.power.pasr.enabled=true
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+vendor.perf.gestureflingboost.enable=true
 
 # Qualcomm / OEM Unlock
 ro.vendor.qti.va_aosp.support=1
