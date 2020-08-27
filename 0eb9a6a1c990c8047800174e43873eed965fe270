@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "406c3f06_a21f9b59",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-27T03:47:00Z",
+      "side": 1,
+      "message": "at some point may wanna use the audio component here",
+      "revId": "0eb9a6a1c990c8047800174e43873eed965fe270",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1a8dcb2f_bbf77eac",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-27T03:47:00Z",
+      "side": 1,
+      "message": "should probably remove the test apps since props have a limited amount of characters and we may need to add additional packages down the road",
+      "revId": "0eb9a6a1c990c8047800174e43873eed965fe270",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3f421b0c_2394823e",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-27T03:47:00Z",
+      "side": 1,
+      "message": "maybe use the display component at some point so you don\u0027t have to maintain this",
+      "revId": "0eb9a6a1c990c8047800174e43873eed965fe270",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8bf1ed3e_e1f78c4d",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-27T03:47:00Z",
+      "side": 1,
+      "message": "no-op",
+      "revId": "0eb9a6a1c990c8047800174e43873eed965fe270",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
