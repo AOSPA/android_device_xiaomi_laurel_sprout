@@ -14,7 +14,6 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 # Include vendor/qcom/common modules
 TARGET_COMMON_QTI_COMPONENTS := \
-    av \
     bt \
     perf
 
