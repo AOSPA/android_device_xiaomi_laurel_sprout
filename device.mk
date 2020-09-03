@@ -102,6 +102,7 @@ PRODUCT_PACKAGES += \
 
 # Audio
 AUDIO_SDK_FLUENCETYPE := fluence
+AUDIO_VOICEREC_FLUENCE := true
 
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
