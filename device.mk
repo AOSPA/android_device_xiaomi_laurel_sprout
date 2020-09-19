@@ -160,6 +160,7 @@ PRODUCT_PACKAGES += \
     libtinyxml
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.hwui.renderer=skiavk \
     debug.sf.use_phase_offsets_as_durations=1 \
     debug.sf.late.sf.duration=10500000 \
     debug.sf.late.app.duration=20500000 \
