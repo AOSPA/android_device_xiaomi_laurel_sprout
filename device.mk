@@ -18,6 +18,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     audio \
     av \
     bt \
+    gps \
     perf
 
 # A/B
