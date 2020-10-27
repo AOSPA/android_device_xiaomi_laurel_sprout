@@ -165,6 +165,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 #BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 #BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy-minimal
+TARGET_EXCLUDE_QCOM_SEPOLICY := true
 
 # RenderScript
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
