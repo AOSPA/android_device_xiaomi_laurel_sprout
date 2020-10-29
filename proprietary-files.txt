@@ -62,26 +62,26 @@ vendor/lib64/libaudioparsers.so
 vendor/lib64/libqtigef.so
 vendor/lib64/soundfx/libasphere.so
 
-# Audio ACDB
-vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Codec_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_General_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Global_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Handset_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Hdmi_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Headset_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_Speaker_cal.acdb
-vendor/etc/acdbdata/IDP/IDP_workspaceFile.qwsp
-vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Codec_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
-vendor/etc/acdbdata/adsp_avs_config.acdb
+# Audio ACDB :- Homemade
+vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb|a2f072a6e1e963271ede327fca282afcc3794e8b
+vendor/etc/acdbdata/IDP/IDP_Codec_cal.acdb|e769c3f9a87f46ce5e454e4fee76748c5a3e3d9c
+vendor/etc/acdbdata/IDP/IDP_General_cal.acdb|1ca9b48b88d758151ac85c8b928e9da6d0d705b8
+vendor/etc/acdbdata/IDP/IDP_Global_cal.acdb|0f4ae6de5a1cf0f868b4b6dcdc03ae62bf7e22a0
+vendor/etc/acdbdata/IDP/IDP_Handset_cal.acdb|f05dc2acddd3e4a294d7bf8bb8f68965643ec3ca
+vendor/etc/acdbdata/IDP/IDP_Hdmi_cal.acdb|68530c3f306080ee7c0f776669a69b92cde7ac40
+vendor/etc/acdbdata/IDP/IDP_Headset_cal.acdb|75200c10b96a871c3ae07306cc0463abb137a70f
+vendor/etc/acdbdata/IDP/IDP_Speaker_cal.acdb|cf2107bf84e9235cbb0a88c2b8c8f71f95265559
+vendor/etc/acdbdata/IDP/IDP_workspaceFile.qwsp|1ae3274fa8901fe32a67c08c85823fd68431fcf9
+vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|8bb839d87ba7df263c8633fa62e2e83b542f5560
+vendor/etc/acdbdata/QRD/QRD_Codec_cal.acdb|836dca4cfb2e3399a3f7e0e2868b4e85fe7c9c62
+vendor/etc/acdbdata/QRD/QRD_General_cal.acdb|690f48bd437f3e340645ec812beb001a494f8840
+vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb|af422d875100e0a9156d6b95c435dcbfa8e11677
+vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb|f2866e11d00c4576ac7e2e1c4c06e4dbe5e3a027
+vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb|8225e854c0b571eec0c346edbbbe7b516c911a1c
+vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|38d262e3b55f0788cacec81f173d0e393d91b20a
+vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|7dcc38cb47f16305a7cfd184367f4415949eec66
+vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp|8ba975be0993b31391c37db8fc9287b1f0ba8ba0
+vendor/etc/acdbdata/adsp_avs_config.acdb|0132130ff591a68a501e2e50c47a951b3b9253ea
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
