@@ -1,26 +1,24 @@
 # Proprietary files - from laurel_sprout stock package V11.0.20.0.QFQMIXM global version, unless pinned
 
-# ADSP
-vendor/bin/adsprpcd
-vendor/lib/libadsp_default_listener.so
-vendor/lib/libadsprpc.so
-vendor/lib/libmdsprpc.so
-vendor/lib/libsdsprpc.so
-vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libadsprpc.so
-vendor/lib64/libmdsprpc.so
-vendor/lib64/libsdsprpc.so
+# ADSP - from LA.UM.8.11.r1-04300-NICOBAR.0
+vendor/bin/adsprpcd|7fb46c11d19f795e0af2f36764d000adccfcdf94
+vendor/lib/libadsp_default_listener.so|3b33fc04b04a2229e60634623d350dac4a936797
+vendor/lib/libadsprpc.so|757b04540f3788af4622dd5d84fd5f9619f24311
+vendor/lib/libmdsprpc.so|ef2f41575874fc495d1a7cef1f7788da511e18b2
+vendor/lib/libsdsprpc.so|d6a3aaed3db23f4968c0df75d86800125b3fda7e
+vendor/lib64/libadsp_default_listener.so|f5bad0f70a6948f915aa8daf393980881af6a4c2
+vendor/lib64/libadsprpc.so|6de29adf4f2c5c1237a7f86c1a2223f0a04d6e1f
+vendor/lib64/libmdsprpc.so|1d80f9f922b1ba13a51e41f40f5cb6daee7141ec
+vendor/lib64/libsdsprpc.so|c20ee5a32fa938b4b5b4609e02600dabcd051954
 
-# ADSP modules
-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
-vendor/lib/rfsa/adsp/libVC1Dec.so
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
-vendor/lib/rfsa/adsp/libapps_mem_heap.so
-vendor/lib/rfsa/adsp/libdspCV_skel.so
-vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
-vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
-vendor/lib/rfsa/adsp/misound_res.bin
+# ADSP modules - from LA.UM.8.11.r1-04300-NICOBAR.0
+vendor/lib/rfsa/adsp/libVC1Dec.so|0eaa3a1b1c56d82283d6aa799c6399ea455e6f41
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|ba18f592929545c76ae12d969f5b5db71f4639a2
+vendor/lib/rfsa/adsp/libapps_mem_heap.so|1cdac354c585c0d236d77b0888ebd5894b333326
+vendor/lib/rfsa/adsp/libdspCV_skel.so|c6034c389845a94a4054dd0fe9a0381adbf086e5
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|ec30ec22f831fc9d755f653d9ae336bcbbcd82bf
+vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 
 # Alarm 
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
@@ -40,29 +38,29 @@ vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 
-# Audio
-etc/permissions/audiosphere.xml
-framework/audiosphere.jar
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
-vendor/lib/libaudcal.so
-vendor/lib/libaudioparsers.so
-vendor/lib/libdrc.so
-vendor/lib/libqtigef.so
-vendor/lib/libsurround_3mic_proc.so
-vendor/lib/soundfx/libasphere.so
-vendor/lib64/libacdb-fts.so
-vendor/lib64/libacdbloader.so
-vendor/lib64/libacdbrtac.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libaudioparsers.so
-vendor/lib64/libqtigef.so
-vendor/lib64/soundfx/libasphere.so
+# Audio - from LA.UM.8.11.r1-04300-NICOBAR.0
+etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
+framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed
+vendor/lib/libacdb-fts.so|efeae2bdcf011c0d1a2aab750d031c2e7db776f3
+vendor/lib/libacdbloader.so|61b462d1dc181e463d77e55b7b7ecd881cc4f3fa
+vendor/lib/libacdbrtac.so|8ec92fc6859c9041760de779b3b1fe191b97cd30
+vendor/lib/libadiertac.so|189fe863303df609289f8238cd923b430165cf50
+vendor/lib/libaudcal.so|17e0229ce0a00cbe7618b725f88c2ea88ff452ac
+vendor/lib/libaudioparsers.so|d898e3d2cc8177e916052527135258c8d9fc7e89
+vendor/lib/libdrc.so|aa8e8dd2a27803bf8ac36619036e1dc736be540b
+vendor/lib/libqtigef.so|64313417bc97e9b48b45b1992b943f167475a6c6
+vendor/lib/libsurround_3mic_proc.so|b3586f20b7c852191811a51be467870f952936e3
+vendor/lib/soundfx/libasphere.so|eaa35262337a8401aaecf02997e98e24083f064c
+vendor/lib64/libacdb-fts.so|2fb1de214681a3f3297d270d1b0162023d60075c
+vendor/lib64/libacdbloader.so|dd5b0d64d54c52481e803258d49010ce8c9f6482
+vendor/lib64/libacdbrtac.so|c93d394b7cefef7c4ce52b0e056b813db6e65c81
+vendor/lib64/libadiertac.so|da77d70e3731dfd095ddd6ea44db041389bd089d
+vendor/lib64/libaudcal.so|0a48ce68a2a2c7174d3e77566c51f8166088a760
+vendor/lib64/libaudioparsers.so|415539849bf39655840b676c0fcf71643094114b
+vendor/lib64/libqtigef.so|3b0ea8646d501893f9bf67b7c78900ac8f941144
+vendor/lib64/soundfx/libasphere.so|6e5a6c00bfd01c5217b4fbc12ac72f5b6afd2b98
 
-# Audio ACDB
+# ACDB
 vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_Codec_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_General_cal.acdb
