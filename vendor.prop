@@ -9,12 +9,7 @@ persist.vendor.audio.calfile6=/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
 persist.vendor.audio.calfile7=/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 
 # Audio
-persist.audio.fluence.voicecomm=true
-persist.vendor.audio.fluence.audiorec=true
-persist.vendor.audio.fluence.speaker=true
-persist.vendor.audio.fluence.voicecall=true
-persist.vendor.audio.fluence.voicerec=true
-ro.vendor.audio.sdk.fluencetype=fluence
+ro.config.vc_call_vol_steps=7
 
 # Bluetooth
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac

@@ -4,10 +4,6 @@ dalvik.vm.dex2oat-filter=speed
 dalvik.vm.dex2oat-threads=8
 dalvik.vm.image-dex2oat-filter=speed
 
-# Audio
-ro.config.media_vol_steps=25
-ro.config.vc_call_vol_steps=7
-
 # Bluetooth
 persist.bluetooth.bqr.event_mask=14
 persist.bluetooth.bqr.min_interval_ms=500
