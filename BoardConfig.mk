@@ -99,9 +99,7 @@ BOARD_HAVE_QCOM_FM := true
 BOARD_HAS_QCA_FM_SOC := "cherokee"
 
 # GPS
-BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
-GNSS_HIDL_VERSION := 2.0
-USE_DEVICE_SPECIFIC_GPS := true
+-include hardware/qcom/gps/gps_vendor_board.mk
 
 # Graphics
 TARGET_USES_COLOR_METADATA := true
