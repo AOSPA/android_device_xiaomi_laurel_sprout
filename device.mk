@@ -371,7 +371,6 @@ PRODUCT_PACKAGES += \
     init.qcom.sensors.sh \
     init.qti.chg_policy.sh \
     init.qcom.sh \
-    init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.target.rc \
     ueventd.qcom.rc \
@@ -440,8 +439,7 @@ PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
 # USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service
+-include vendor/qcom/opensource/usb/vendor_product.mk
 
 # VNDK
 PRODUCT_PACKAGES += \
