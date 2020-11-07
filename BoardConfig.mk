@@ -47,6 +47,7 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/xiaomi/laurel_sprout
 KERNEL_DEFCONFIG := vendor/laurel_sprout-perf_defconfig
+TARGET_KERNEL_VERSION := 4.14
 
 # DTB
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
