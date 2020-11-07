@@ -2024,7 +2024,7 @@
 
     <!-- VoIP Rx settings -->
     <path name="audio-playback-voip">
-        <ctl name="WSA_CDC_DMA_RX_0 Audio Mixer MultiMedia10" value="1" />
+        <ctl name="SEC_MI2S_RX Audio Mixer MultiMedia10" value="1" />
     </path>
 
     <path name="audio-playback-voip handset">
