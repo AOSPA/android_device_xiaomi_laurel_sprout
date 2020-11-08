@@ -18,7 +18,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     audio \
     av \
     bt \
-    perf
+    perf \
+    telephony
 
 # A/B
 AB_OTA_UPDATER := true
