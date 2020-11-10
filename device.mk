@@ -336,21 +336,9 @@ VENDOR_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
 # Vibrator
 $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.mk)
 
-# Ramdisk
+# Init
 PRODUCT_PACKAGES += \
-    init.class_main.sh \
-    init.msm.usb.configfs.rc \
-    init.qcom.early_boot.sh \
-    init.qcom.post_boot.sh \
-    init.qcom.rc \
-    init.recovery.qcom.rc \
-    init.qcom.sensors.sh \
-    init.qti.chg_policy.sh \
-    init.qcom.sh \
-    init.qcom.usb.rc \
-    init.qcom.usb.sh \
     init.target.rc \
-    ueventd.qcom.rc \
     fstab.qcom
 
 PRODUCT_COPY_FILES += \
