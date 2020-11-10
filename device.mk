@@ -192,17 +192,8 @@ PRODUCT_PACKAGES += \
 
 # Display/Graphics
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.3-service \
-    android.hardware.graphics.mapper@2.0-impl-qti-display \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service \
-    gralloc.trinket \
-    hwcomposer.trinket \
-    libdisplayconfig \
     libtinyxml \
-    libvulkan \
-    memtrack.trinket \
-    vendor.qti.hardware.display.allocator-service
+    libvulkan
 
 # Media
 PRODUCT_PACKAGES += \
