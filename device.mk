@@ -164,6 +164,7 @@ PRODUCT_PACKAGES += \
     init.laurel.rc \
     init.laurel.perf.rc \
     init.laurel.usb.rc \
+    init.laurel.wifi.rc \
     init.qti.dcvs.sh \
     init.target.rc
 
