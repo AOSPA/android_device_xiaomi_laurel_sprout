@@ -34,3 +34,28 @@ on post-fs-data
    chmod 0777 /sys/class/touch/tp_dev/fod_status
    chmod 0660 /sys/class/drm/card0-DSI-1/acl
    chmod 0440 /sys/class/drm/card0-DSI-1/white_read
+
+on property:vendor.post_boot.parsed=1
+    # Setup cpusets.
+    write /dev/cpuset/top-app/cpus 0-7
+    write /dev/cpuset/foreground/boost/cpus 0-3,6-7
+    write /dev/cpuset/foreground/cpus 0-3,6-7
+    write /dev/cpuset/background/cpus 0-1
+    write /dev/cpuset/system-background/cpus 0-3
+    write /dev/cpuset/restricted/cpus 0-3
+
+    # Setup blkio.
+    write /dev/blkio/blkio.weight 1000
+    write /dev/blkio/background/blkio.weight 200
+    write /dev/blkio/blkio.group_idle 2000
+    write /dev/blkio/background/blkio.group_idle 0
+
+    # Setup EAS Tunables.
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/up_rate_limit_us 500
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/down_rate_limit_us 20000
+    write /sys/devices/system/cpu/cpu0/cpufreq/schedutil/hispeed_freq 1420800
+    write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 864000
+
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/up_rate_limit_us 500
+    write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/down_rate_limit_us 20000
+    write /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq 652800
