@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "914e7463_6d7aaab5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2020-12-12T15:54:23Z",
+      "side": 1,
+      "message": "Swap setup is duplicated, the same is being done in post_boot script.\nYou can also remove sleep_disabled writes, its disabled by default from cmdline and post_boot script enables it after boot complete.",
+      "revId": "264041377a9be332dceec743362b7f181805eca7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4f025e1b_04fc6f39",
