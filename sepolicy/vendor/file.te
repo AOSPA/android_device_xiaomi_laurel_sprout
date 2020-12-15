@@ -1,0 +1,4 @@
+# Fingerprint
+type hal_fingerprint_hwservice_xiaomi, hwservice_manager_type;
+type sysfs_fod, sysfs_type, fs_type;
+type vendor_fp_prop, property_type;
