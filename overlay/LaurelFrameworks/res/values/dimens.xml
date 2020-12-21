@@ -18,7 +18,7 @@
 
     <!-- Radius of the software rounded corners at the bottom of the display in its natural
         orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_bottom">102px</dimen>
+    <dimen name="rounded_corner_radius_bottom">68.0px</dimen>
 
     <!-- Adjustment for software buttomm rounded corners since corners aren't perfectly round. -->
     <dimen name="rounded_corner_radius_bottom_adjustment">48.0px</dimen>
