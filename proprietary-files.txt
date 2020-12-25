@@ -399,8 +399,6 @@ vendor/etc/camera/sdm660_camera_global.xml|9eadaa09f716ede53365df0f2aa8b93a01a32
 vendor/etc/camera/sdm660_camera_india.xml|4955764ff7c8bb6f37a8db283259381934793616
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin|1ca031d5f8eb0e6aa3eedf7df8d53223b5054bc5
 vendor/etc/camera/vidhance_calibration|6a0241a1dcec89c56e96a93073093eb568d3ddc0
-vendor/lib/hw/camera.trinket.so|e545b3616fe31d5edc286b588f3e068770d5555d
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so|3c754e4bf2ba6f065e6404dfc70dea6dcc539cc2
 vendor/lib/libFaceGrade.so|ab36b265668f77a613719e1b8cedf0b1a0219fa5
 vendor/lib/libSNPE.so|5eee96ad6afc3e7713887c05df068fafb061a40d
 vendor/lib/libVDClearShot.so|fe429e3ddac8f989d2c754b6a3da36ebe8b85060
@@ -2852,7 +2850,6 @@ vendor/lib/libvideoutils.so|9727d9331e43090431c4db5695dba98affac8224
 vendor/lib/libvidhance.so|90e6c82441064145899a13c547279994ef6d1387
 vendor/lib/mibokeh_660_opencl.bin|b3e6f36bad8f6ab28f90a254126105a64b141eec
 vendor/lib/miwatermark.so|b4de686ca3d76221a506f2fb5fe41443a0754241
-vendor/lib/vendor.qti.hardware.camera.device@3.2.so|764b00c62dc7a7a49ebc50d24fb4403e4ed8b686
 vendor/lib64/libcapiv2svacnn.so|ab08e84c6dc08e90a8d45bd7db2e9920490491ab
 vendor/lib64/libcapiv2vop.so|703836be24ce91c4a64ab0e4d872e7297979ded0
 vendor/lib64/libmmcamera2_frame_algorithm.so|d8cbb548078500cc319f0ce9e225f4a71f4e27d3
@@ -2873,9 +2870,30 @@ vendor/lib64/libsnsapi.so|a1c95932da2c7ef50b43c7d887725ae285608ef3
 vendor/lib64/libsnsdiaglog.so|1badfb8f571c0afb7e5a8239832a4d3c093f0c67
 vendor/lib64/libswvdec.so|d5baaebcbd4e04461d7ee68dbe4613cf881c5951
 vendor/lib64/libsysmon_cdsp_skel.so|74b190379ef0bf45f08b875c12eb7303c4627646
+
+# Camera HAL - Stock
+vendor/bin/hw/android.hardware.camera.provider@2.4-service|66a43b16b6ecb27bc080d1078eb7055317454f57
+vendor/etc/init/android.hardware.camera.provider@2.4-service.rc|655b17a43029e65318a38dbfa9183f7d2621679f
+vendor/lib/android.hardware.camera.provider@2.4-external.so|d79fc155f4f054188efd064578a83781caff71bd
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so|3c754e4bf2ba6f065e6404dfc70dea6dcc539cc2
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|c1cc196e13788beaa0cf59808b2183452a462ad0
+vendor/lib/hw/camera.trinket.so|e545b3616fe31d5edc286b588f3e068770d5555d
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so|1f3763658ac6ade8d5c13b899a3ab4e53cbf0a59
+vendor/lib/vendor.qti.hardware.camera.device@3.2.so|764b00c62dc7a7a49ebc50d24fb4403e4ed8b686
+vendor/lib64/android.hardware.camera.provider@2.4-external.so|a27fd26bb1f94845a2ff025f528346d42a8fc329
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|630abb136882a6e31a64c1622a45f0291efdc18d
+vendor/lib64/camera.device@1.0-impl.so|ecaf0a6868e78f58c9343a434ecbc51818681dab
+vendor/lib64/camera.device@3.2-impl.so|94616702c7508181504332d492988024353d319e
+vendor/lib64/camera.device@3.3-impl.so|35f78f56d565ca1bd0393d5e341457b8e69ad232
+vendor/lib64/camera.device@3.4-external-impl.so|0c78dd542a95a7d6958e14ca4254e6d4cae58531
+vendor/lib64/camera.device@3.4-impl.so|7cacd6f07d17dafbd1b8cb8c02de1bbd9cea1d63
+vendor/lib64/camera.device@3.5-external-impl.so|c07ee8b0b85dcca5757691faeb55a5f8df289933
+vendor/lib64/camera.device@3.5-impl.so|dbd70ba09fe9a9ca051dbc83a830b9b1402db635
+vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so|67248b9f6ee1dc4e0ecfde28316775a0f988152c
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|5291305c1d6c00d7f2fa4c9bcc71fba386978543
 vendor/lib64/vendor.qti.hardware.camera.device@3.2.so|f26ae74807ffa6e966cf48ac39e6168a56066fda
 
-# Camera-firmware
+# Camera-firmware - Stock
 vendor/firmware/cpp_firmware_v1_10_0.fw|a3c0fc706eb3f23b99852fe8c52c26f63999f70c
 vendor/firmware/cpp_firmware_v1_12_0.fw|c7939d46f9875054c5b30c3280862e7d9df3dcf9
 vendor/firmware/cpp_firmware_v1_12_1.fw|b74b657c666706ef8d0740a32b6f245a0f6c3fe1
