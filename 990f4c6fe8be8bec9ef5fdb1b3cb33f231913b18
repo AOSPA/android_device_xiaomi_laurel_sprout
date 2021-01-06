@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8640cb6_9aad0d49",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-01-06T15:56:59Z",
+      "side": 1,
+      "message": "don\u0027t think I agree with this given the overlay component which has all the CAF stuff",
+      "revId": "990f4c6fe8be8bec9ef5fdb1b3cb33f231913b18",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
