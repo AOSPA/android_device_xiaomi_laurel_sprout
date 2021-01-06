@@ -16,6 +16,23 @@
       "message": "don\u0027t think I agree with this given the overlay component which has all the CAF stuff",
       "revId": "990f4c6fe8be8bec9ef5fdb1b3cb33f231913b18",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f283925d_e0a73696",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2021-01-06T16:11:27Z",
+      "side": 1,
+      "message": "LaurelFrameworks \u003d Device specific resources that exist in AOSP\nAOSPALaurelFrameworks \u003d Device specific resources that exist only in PA\nFrameworks \u003d CAF resources for the SOC",
+      "revId": "990f4c6fe8be8bec9ef5fdb1b3cb33f231913b18",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
