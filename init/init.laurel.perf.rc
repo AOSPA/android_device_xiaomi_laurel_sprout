@@ -66,4 +66,4 @@ on property:vendor.post_boot.parsed=1
     write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/up_rate_limit_us 500
     write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/down_rate_limit_us 20000
     write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/pl 1
-    write /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq 652800
+    write /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq 1056000
