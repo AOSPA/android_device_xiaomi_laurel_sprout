@@ -101,9 +101,10 @@
         <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
         <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
+        <!-- CPUBW_MIN_FREQ resource opcode, value-->
         <Config
-            Id="0x00001083" Enable="true" Timeout="400" Target="trinket"
-            Resources="0x40804000, 2016, 0x40804100, 1804, 0x40800000, 2208, 0x40800100, 1708" />
+            Id="0x00001083" Enable="true" Timeout="500" Target="trinket"
+            Resources="0x40804000, 2016, 0x40804100, 1804, 0x40800000, 2208, 0x40800100, 1708, 0x41800000, 0x26" />
 
     <!--Vertical Scroll boost-->
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
@@ -114,7 +115,7 @@
         <!-- Type="1", Vertical Scroll boost -->
         <Config
             Id="0x00001080" Type="1" Enable="true" Target="trinket"
-            Resources="0x41800000, 0x26, 0x40800000, 1056, 0x40800100, 1017, 0x40C00000, 2" />
+            Resources="0x41800000, 0x26, 0x40800000, 1500, 0x40800100, 1500, 0x40C00000, 2" />
 
     <!--Horizontal Scroll boost-->
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
@@ -125,7 +126,7 @@
         <!-- Type="2", Horizontal Scroll boost -->
         <Config
             Id="0x00001080" Type="2" Enable="true" Target="trinket"
-            Resources="0x41800000, 0x26, 0x40800000, 1056, 0x40800100, 1017, 0x40C00000, 2" />
+            Resources="0x41800000, 0x26, 0x40800000, 1500, 0x40800100, 1500, 0x40C00000, 2" />
 
     <!--Pre-Fling boost-->
         <!-- CPUBW_MIN_FREQ resource opcode, value-->
@@ -135,8 +136,8 @@
 
         <!-- Type="4", Pre-Fling boost -->
         <Config
-            Id="0x00001080" Type="4" Enable="true" Timeout="80" Target="trinket"
-            Resources="0x41800000, 0x26, 0x40800000, 1056, 0x40800100, 1017, 0x40C00000, 2" />
+            Id="0x00001080" Type="4" Enable="true" Timeout="100" Target="trinket"
+            Resources="0x41800000, 0x8C, 0x40800000, 1056, 0x40800100, 1017, 0x40C00000, 2" />
 
     <!--MTP boost-->
         <!-- SCHEDBOOST resource opcode, value-->
