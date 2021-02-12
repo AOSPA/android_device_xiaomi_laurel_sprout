@@ -243,6 +243,7 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS += \
+    adreno \
     audio \
     av \
     bt \
