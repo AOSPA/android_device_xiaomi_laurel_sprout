@@ -164,6 +164,9 @@ PRODUCT_PACKAGES += \
     libqservice \
     libtinyxml
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sdm.support_writeback=0
+
 # GPS
 LOC_HIDL_VERSION = 4.0
 
