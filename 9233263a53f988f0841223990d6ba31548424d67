@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "127b512e_3ecbc139",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-02-28T22:26:50Z",
+      "side": 1,
+      "message": "should be in vendor imo, no need to inflate tree",
+      "revId": "9233263a53f988f0841223990d6ba31548424d67",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
