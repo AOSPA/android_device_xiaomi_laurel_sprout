@@ -16,6 +16,24 @@
       "message": "should be in vendor imo, no need to inflate tree",
       "revId": "9233263a53f988f0841223990d6ba31548424d67",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "262c7ddd_9f2bfcdd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-03-01T08:43:29Z",
+      "side": 1,
+      "message": "actually not sure if we should ship google camera, lets see",
+      "parentUuid": "127b512e_3ecbc139",
+      "revId": "9233263a53f988f0841223990d6ba31548424d67",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
