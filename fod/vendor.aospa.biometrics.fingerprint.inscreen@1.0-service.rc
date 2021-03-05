@@ -1,9 +1,11 @@
 on boot
+    chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_hbm
+    chown system system /sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_ui
     chown system system /sys/class/touch/tp_dev/fod_status
-    chmod 0644 /sys/class/touch/tp_dev/fod_status
 
-    chown system system /sys/devices/platform/soc/5e00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/disp_param
-    chmod 0700 /sys/devices/platform/soc/5e00000.qcom,mdss_mdp/drm/card0/card0-DSI-1/disp_param
+    chmod 0644 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_hbm
+    chmod 0444 /sys/devices/platform/soc/soc:qcom,dsi-display-primary/fod_ui
+    chmod 0644 /sys/class/touch/tp_dev/fod_status
 
 service vendor.fingerprint-inscreen-1-0 /system_ext/bin/hw/vendor.aospa.biometrics.fingerprint.inscreen@1.0-service
     interface vendor.aospa.biometrics.fingerprint.inscreen@1.0::IFingerprintInscreen default
