@@ -69,6 +69,10 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 # Display
 TARGET_SCREEN_DENSITY := 320
 
+# Fingerprint On-Display
+TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension
+TARGET_USES_FOD_ZPOS := true
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/xiaomi_vendor_framework_compatibility_matrix.xml \

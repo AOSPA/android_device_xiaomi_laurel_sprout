@@ -13,3 +13,6 @@ binder_call(vendor_fod, hal_fingerprint_default)
 
 # Allow the FOD HAL to find Xiaomi Fingerprint Extensions.
 allow vendor_fod hal_fingerprint_hwservice_xiaomi:hwservice_manager find;
+
+# Allow vendor_fod to use wakelocks
+wakelock_use(vendor_fod)
