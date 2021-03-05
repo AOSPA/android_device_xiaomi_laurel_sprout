@@ -23,6 +23,7 @@ cc_binary {
     shared_libs: [
         "libbase",
         "libhardware",
+        "libhardware_legacy",
         "libhidlbase",
         "libhidltransport",
         "liblog",
@@ -32,4 +33,12 @@ cc_binary {
         "vendor.xiaomi.hardware.fingerprintextension@1.0",
     ],
     system_ext_specific: true,
+}
+
+cc_library_static {
+    name: "libfod_extension",
+    srcs: ["fod_extension.cpp"],
+    include_dirs: [
+        "frameworks/native/services/surfaceflinger/CompositionEngine/include"
+    ],
 }
