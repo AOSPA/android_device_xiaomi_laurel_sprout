@@ -1,23 +1,23 @@
 # Proprietary files - from LA.UM.9.11.r1-02800-NICOBAR.0. Pinned blobs from laurel_sprout-qssi-user-11-RKQ1.200903.002-V12.0.6.0.RFQMIXM-release-keys Stock firmware.
 
-# ACDB Database - Custom
-vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb|a2f072a6e1e963271ede327fca282afcc3794e8b
-vendor/etc/acdbdata/IDP/IDP_Codec_cal.acdb|e769c3f9a87f46ce5e454e4fee76748c5a3e3d9c
-vendor/etc/acdbdata/IDP/IDP_General_cal.acdb|1ca9b48b88d758151ac85c8b928e9da6d0d705b8
-vendor/etc/acdbdata/IDP/IDP_Global_cal.acdb|0f4ae6de5a1cf0f868b4b6dcdc03ae62bf7e22a0
-vendor/etc/acdbdata/IDP/IDP_Handset_cal.acdb|f05dc2acddd3e4a294d7bf8bb8f68965643ec3ca
-vendor/etc/acdbdata/IDP/IDP_Hdmi_cal.acdb|68530c3f306080ee7c0f776669a69b92cde7ac40
-vendor/etc/acdbdata/IDP/IDP_Headset_cal.acdb|75200c10b96a871c3ae07306cc0463abb137a70f
-vendor/etc/acdbdata/IDP/IDP_Speaker_cal.acdb|cf2107bf84e9235cbb0a88c2b8c8f71f95265559
-vendor/etc/acdbdata/IDP/IDP_workspaceFile.qwsp|1ae3274fa8901fe32a67c08c85823fd68431fcf9
-vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|7c5aa696ce65b3c1bcdd7103d49cd08f7245bbf6
+ # ACDB Database - Custom
+vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb|50a0ac23b875060ba2f807707955ab5efd6babbc
+vendor/etc/acdbdata/IDP/IDP_Codec_cal.acdb|710c079779d780e91c7312f5e4314322d65ef7e4
+vendor/etc/acdbdata/IDP/IDP_General_cal.acdb|6e613fad3abb48e420dd380dfc704ca9a4a7f15f
+vendor/etc/acdbdata/IDP/IDP_Global_cal.acdb|04c1da0b2aa2293c353d933bb93c0a06fd0210d9
+vendor/etc/acdbdata/IDP/IDP_Handset_cal.acdb|d53a64e7216242bf42ae1364edb0120e86e93d19
+vendor/etc/acdbdata/IDP/IDP_Hdmi_cal.acdb|1310ce031e79c2cde6cab93e7dcaa16e5755bc1b
+vendor/etc/acdbdata/IDP/IDP_Headset_cal.acdb|0ff44aaaaea34558bd43294adf04be76ebd6b39f
+vendor/etc/acdbdata/IDP/IDP_Speaker_cal.acdb|b0ceab11c0a122d62f7a8ada404a4e2f364ab92d
+vendor/etc/acdbdata/IDP/IDP_workspaceFile.qwsp|487ab08f990d37a99b4e2be1880fd1e2ca27c8cc
+vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|8bb839d87ba7df263c8633fa62e2e83b542f5560
 vendor/etc/acdbdata/QRD/QRD_Codec_cal.acdb|48ac37a77e48e6925124c60903410a3c8ce75cba
-vendor/etc/acdbdata/QRD/QRD_General_cal.acdb|64a1b6f1f54747d23b4995c4a3366d625ad15761
-vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb|ed14ebd141f5bf25ddbe9cbff322047b4a5ad277
-vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb|9d2797f24b3e3dac9a2c1cfae173b593ba159dff
-vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb|837fe0c7143e84f88c54be0a8a8c9735dfcc4e39
-vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|c2aa65c91d3a607e5efb323ea9b04b1feda401e7
-vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|a62700ee0f1159a677ce93a097d8924c3faa859b
+vendor/etc/acdbdata/QRD/QRD_General_cal.acdb|f3d4732a4a7300cadbe58ccac27a7c4ea6ab23f9
+vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb|e9420b7af075c0deff719ec4cde0a1837696c694
+vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb|ad540641fcd3dea685793bc2f937cd7e8ea83d7c
+vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb|8225e854c0b571eec0c346edbbbe7b516c911a1c
+vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|38d262e3b55f0788cacec81f173d0e393d91b20a
+vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|935eb011923ada60296f1f3701cf3f8d55a4cdff
 vendor/etc/acdbdata/adsp_avs_config.acdb|0132130ff591a68a501e2e50c47a951b3b9253ea
 
 # ADSPRPC
