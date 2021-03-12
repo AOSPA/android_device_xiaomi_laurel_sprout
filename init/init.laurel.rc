@@ -17,6 +17,10 @@ on init
     chown system system /dev/goodix_fp
     chmod 0660 /dev/goodix_fp
 
+# Set-up DT2W Node.
+    chown system system /sys/touchpanel/double_tap
+    chmod 0660 /sys/touchpanel/double_tap
+
 # Setup IR device permissions
     chown system system /dev/spidev0.1
     chmod 0660 /dev/spidev0.1
