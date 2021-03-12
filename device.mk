@@ -236,6 +236,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AOSPALaurelFrameworks \
     AOSPALaurelSettings \
     AOSPALaurelSystemUI \
     FrameworksResTarget \
