@@ -69,6 +69,14 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 # Display
 TARGET_SCREEN_DENSITY := 320
 
+# Gestures
+TAP_TO_WAKE_EVENT_NODE := "/dev/input/event2"
+DRAW_V_NODE := "/dev/input/event2"
+DRAW_O_NODE := "/dev/input/event2"
+DRAW_M_NODE := "/dev/input/event2"
+DRAW_W_NODE := "/dev/input/event2"
+DRAW_S_NODE := "/dev/input/event2"
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/xiaomi_vendor_framework_compatibility_matrix.xml \
@@ -113,9 +121,6 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 1073741824
 BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
-
-# Power
-TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
