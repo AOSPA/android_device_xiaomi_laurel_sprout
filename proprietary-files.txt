@@ -1,4 +1,4 @@
-# Proprietary files - from LA.UM.9.11.r1-02800-NICOBAR.0. Pinned blobs from laurel_sprout-qssi-user-11-RKQ1.200903.002-V12.0.6.0.RFQMIXM-release-keys Stock firmware.
+# Proprietary files - from LA.UM.9.11.r1-03200-NICOBAR.0. Pinned blobs from laurel_sprout-qssi-user-11-RKQ1.200903.002-V12.0.6.0.RFQMIXM-release-keys Stock firmware.
 
 # ADSPRPC
 vendor/bin/adsprpcd
