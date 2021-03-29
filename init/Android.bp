@@ -33,13 +33,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.laurel.usb.rc",
-    src: "init.laurel.usb.rc",
-    sub_dir: "init",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.laurel.wifi.rc",
     src: "init.laurel.wifi.rc",
     sub_dir: "init",
