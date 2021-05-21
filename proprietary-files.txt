@@ -1,4 +1,4 @@
-# Proprietary files - from LA.UM.9.11.r1-03200-NICOBAR.0. Pinned blobs from laurel_sprout-qssi-user-11-RKQ1.200903.002-V12.0.9.0.RFQMIXM-release-keys Stock firmware.
+# Proprietary files - from LA.UM.9.11.r1-03900-NICOBAR.0. Pinned blobs from laurel_sprout-qssi-user-11-RKQ1.200903.002-V12.0.9.0.RFQMIXM-release-keys Stock firmware.
 
 # ADSPRPC
 vendor/bin/adsprpcd
@@ -2867,9 +2867,6 @@ vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 
 # Connection Security
--vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk;PRESIGNED
--vendor/app/SSGTelemetryService/SSGTelemetryService.apk;PRESIGNED
--vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
 vendor/bin/ssgqmigd
 vendor/bin/ssgtzd
 vendor/lib/libminksocket.so
