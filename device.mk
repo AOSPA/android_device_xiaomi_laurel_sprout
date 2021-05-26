@@ -134,6 +134,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_backpressure=1 \
     vendor.display.disable_rotator_downscale=1
 
+# Dynamic Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
+
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # GPS
 LOC_HIDL_VERSION = 4.0
 
