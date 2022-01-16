@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2020 Paranoid Android
+// Copyright (C) 2019 The LineageOS Project
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,22 +14,23 @@
 // limitations under the License.
 
 cc_binary {
-    name: "vendor.aospa.biometrics.fingerprint.inscreen@1.0-service",
-    vintf_fragments: ["vendor.aospa.biometrics.fingerprint.inscreen@1.0-service.xml"],
-    init_rc: ["vendor.aospa.biometrics.fingerprint.inscreen@1.0-service.rc"],
+    name: "android.hardware.biometrics.fingerprint@2.3-service",
     relative_install_path: "hw",
+    vintf_fragments: ["android.hardware.biometrics.fingerprint@2.3-service.xml"],
+    init_rc: ["android.hardware.biometrics.fingerprint@2.3-service.rc"],
     defaults: ["hidl_defaults"],
-    srcs: ["service.cpp", "FingerprintInscreen.cpp"],
+    srcs: [
+        "service.cpp",
+        "BiometricsFingerprint.cpp",
+    ],
     shared_libs: [
         "libbase",
-        "libhardware",
         "libhidlbase",
-        "libhidltransport",
         "liblog",
-        "libhwbinder",
         "libutils",
-        "vendor.aospa.biometrics.fingerprint.inscreen@1.0",
+        "android.hardware.biometrics.fingerprint@2.1",
+        "android.hardware.biometrics.fingerprint@2.2",
+        "android.hardware.biometrics.fingerprint@2.3",
         "vendor.xiaomi.hardware.fingerprintextension@1.0",
     ],
-    system_ext_specific: true,
 }
