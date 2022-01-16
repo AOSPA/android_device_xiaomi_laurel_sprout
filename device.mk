@@ -121,7 +121,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.3-service.clearkey
+    android.hardware.drm@1.0.vendor \
+    android.hardware.drm@1.1.vendor \
+    android.hardware.drm@1.2.vendor \
+    android.hardware.drm@1.3.vendor \
+    android.hardware.drm@1.4-service.clearkey
 
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
@@ -189,6 +193,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.netflix.bsp_rev=Q6125-17995-1 \
     vendor.netflix.bsp_rev=Q6125-17995-1
 
+# Neural Network
+PRODUCT_PACKAGES += \
+    android.hardware.neuralnetworks@1.3.vendor \
+    android.hardware.neuralnetworks@1.2.vendor \
+    android.hardware.neuralnetworks@1.1.vendor \
+    android.hardware.neuralnetworks@1.0.vendor
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPALaurelFrameworks \
@@ -231,6 +242,17 @@ TARGET_COMMON_QTI_COMPONENTS += \
     vibrator \
     wfd \
     wlan
+
+# Radio
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1.vendor \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio@1.4.vendor \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.radio.deprecated@1.0.vendor \
+    android.hardware.secure_element@1.2.vendor \
+    android.hardware.secure_element@1.1.vendor \
+    android.hardware.secure_element@1.0.vendor
 
 # Sensors
 PRODUCT_COPY_FILES += \
